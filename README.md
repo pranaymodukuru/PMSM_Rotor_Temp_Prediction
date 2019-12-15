@@ -1,7 +1,7 @@
 # PMSM_Rotor_Temp_Prediction
 Predicting Rotor Temperature of a Permanent Magnet Synchronous Motor(PMSM) using a Convolutional Neural Network(CNN)
 
-The current notebook uses the electric-motor-temperature dataset to predict the rotor temperature of a motor.
+This project uses the electric-motor-temperature dataset to predict the rotor temperature of a motor.
 
 The dataset and its description is available here: https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
