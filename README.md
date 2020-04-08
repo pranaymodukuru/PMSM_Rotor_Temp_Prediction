@@ -8,8 +8,10 @@ The rotor temperature of any motor is difficult to measure as it is a rotating p
 
 Measurement of quantities like temperature, torque of the rotor is important in order to design control systems to effectively control the motor. Many statistical based approaches have been studied in estimating the values of temperatures and torque, but these approaches require domain knowledge and often are different for different motors and different operating conditions. There is no universal approach towards estimating these values.
 
-With the advent of Deep Learning, methods have been proposed to use deep learning approaches to predict the sensor values. The goal of the project is to efficiently predict the rotor temperature of a permanent magnet synchronous motor (PMSM), as it is usually difficult to measure the rotor temperature. This kind of prediction helps to reduce the amount of equipment
-that is to be mounted on to the motor to measure the temperature.
+With the advent of Deep Learning, methods have been proposed to use deep learning approaches to predict the sensor values. The goal of the project is to efficiently predict the rotor temperature of a permanent magnet synchronous motor (PMSM), as it is usually difficult to measure the rotor temperature. This kind of prediction helps to reduce the amount of equipment that is to be mounted on to the motor to measure the temperature.
+
+Please refer [*CNN_MotorTemperature_Regression.ipynb*](https://github.com/pranaymodukuru/PMSM_Rotor_Temp_Prediction/blob/master/CNN_MotorTemperature_Regression.ipynb) for code.
+
 
 
 ### 2. Data Description
