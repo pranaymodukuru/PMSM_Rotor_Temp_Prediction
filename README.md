@@ -2,7 +2,7 @@
 
 ### Predicting Rotor Temperature of a Permanent Magnet Synchronous Motor(PMSM) using a Convolutional Neural Network(CNN)
 
-#### 1. Problem Statement
+### 1. Problem Statement
 
 The rotor temperature of any motor is difficult to measure as it is a rotating part. Placing any sensors to measure this difficult to measure temperature would result in increase in costs and also increase the weight of the motor. In the era of electric vehicles, electric drives have become common in automotives and a lot of research is ongoing to reduce the weight of the motors in order to increase the efficiency of electric cars.
 
@@ -12,7 +12,7 @@ With the advent of Deep Learning, methods have been proposed to use deep learnin
 that is to be mounted on to the motor to measure the temperature.
 
 
-#### 2. Data Description
+### 2. Data Description
 
 This project uses the electric-motor-temperature dataset to predict the rotor temperature of a motor. The dataset and its description is available here: https://www.kaggle.com/wkirgsn/electric-motor-temperature
 
@@ -34,13 +34,13 @@ A brief description of data attributes:
 
 Target features are **pm**, **Torque**, and **Stator_*** temperatures.
 
-#### 3. Data Preparation
+### 3. Data Preparation
 
 The data has been divided into sequences of certain length. For example, A series of values collected from all the sensors over a time period of 10 seconds is taken as a sequence and the target value for this sequence is the temperature value of the next instance.
 
 This way we can give the raw sensor values to the model and predict the temperature values. Although there are four interesting targets here. Only one of them is used as a target variable in this project.
 
-#### 4. Modelling and Evaluation
+### 4. Modelling and Evaluation
 
 * Algorithm used - 1-D Convolutional Neural Network
 
@@ -50,12 +50,12 @@ The sequence of sensor values are given as an input to the CNN and the output of
 
 Since the target variable is a continuous variable, regression evaluation metric RMSE (Root Mean Squared Error) and R2 Score (Coefficient of Determination) have been used.
 
-#### 5. Results
+### 5. Results
 
 ##### Loss vs Epoch
 ![Loss vs Epoch](https://github.com/pranaymodukuru/PMSM_Rotor_Temp_Prediction/blob/master/imgs/losses.png)
 #### Predictions
 ![Predictions](https://github.com/pranaymodukuru/PMSM_Rotor_Temp_Prediction/blob/master/imgs/predictions.png)
 
-#### 6. References
+### 6. References
 1. https://www.kaggle.com/wkirgsn/electric-motor-temperature
