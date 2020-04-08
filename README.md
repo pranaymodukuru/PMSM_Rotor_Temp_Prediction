@@ -53,9 +53,9 @@ Since the target variable is a continuous variable, regression evaluation metric
 #### 5. Results
 
 ##### Loss vs Epoch
-![Loss vs Epoch]( )
+![Loss vs Epoch](https://github.com/pranaymodukuru/PMSM_Rotor_Temp_Prediction/blob/master/imgs/losses.png)
 #### Predictions
-![Predictions]( )
+![Predictions](https://github.com/pranaymodukuru/PMSM_Rotor_Temp_Prediction/blob/master/imgs/predictions.png)
 
 #### 6. References
 1. https://www.kaggle.com/wkirgsn/electric-motor-temperature
