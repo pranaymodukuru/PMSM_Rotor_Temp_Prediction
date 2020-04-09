@@ -2,7 +2,7 @@
 
 ### Predicting Rotor Temperature of a Permanent Magnet Synchronous Motor(PMSM) using a Convolutional Neural Network(CNN)
 
-### 1. Problem Statement
+
 
 The rotor temperature of any motor is difficult to measure as it is a rotating part. Placing any sensors to measure this difficult to measure temperature would result in increase in costs and also increase the weight of the motor. In the era of electric vehicles, electric drives have become common in automotives and a lot of research is ongoing to reduce the weight of the motors in order to increase the efficiency of electric cars.
 
@@ -12,7 +12,9 @@ With the advent of Deep Learning, methods have been proposed to use deep learnin
 
 Please refer [*CNN_MotorTemperature_Regression.ipynb*](https://github.com/pranaymodukuru/PMSM_Rotor_Temp_Prediction/blob/master/CNN_MotorTemperature_Regression.ipynb) for code.
 
+### 1. Problem Statement
 
+Predicting rotor temperature of the rotor of a Permanent Magnet Synchronous Motor(PMSM) given other sensor measurements during operation.
 
 ### 2. Data Description
 
